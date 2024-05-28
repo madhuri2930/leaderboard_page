@@ -1,0 +1,119 @@
+.main-container{
+    margin: 10px 12px 30px 12px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    border-radius: 5px;
+    height: 100vh;
+}
+
+.leaderboard-heading{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    background-image: url(./image/rainbow-colored-stripe-twisting-background_97886-1109.avif);
+    background-clip: text;
+    color: transparent;
+    animation: move 3s infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes move{
+    100%{
+        background-position-x: 500px ;
+    }
+}
+.hr-line{
+    margin: 10px 10px;
+   color: rgba(255, 166, 0, 0.849);
+}
+.basic-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px 0px 20px;
+}
+.labelText{
+margin-right: 15px;
+text-align: center;
+}
+.basic-text{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(./image/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+    background-clip: text;
+    color: transparent;
+    animation: move 4s infinite;
+}
+.hr-line2{
+    margin: 10px 10px;
+   color: rgb(189, 185, 185);
+   margin-top: -6px;
+   
+}
+.table-container{
+    margin: 20px 20px 40px 20px;
+}
+.table-container table{
+    width: 100%;
+}
+.table-heading th{
+    background-color: rgb(241, 238, 238);
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    background-image: url(./image/hd_wallpaper_2656.jpg);
+    background-clip: text;
+    color: transparent;
+    animation: move 4s infinite;
+}
+.table-container tbody{
+    text-align: center;
+    font-size: 16px;
+   
+}
+.table-container td{
+    padding: 10px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(225, 222, 222) ;
+    background-color:  rgb(248, 248, 247);
+}
+.rank-icon{
+    margin-right: 2px;
+    width: 20px;
+    color: goldenrod
+}
+.dwn-arrow{
+    margin-left: 3px;
+    font-size: 20px;
+    color: rgb(17, 0, 255);
+}
+.a-tag{
+    text-decoration: none;
+}
+.action-up-arrow{
+    color: rgb(35, 250, 35);
+    font-size:20px ;
+}
+.action-dwn-arrow{
+    color: red;
+    font-size:20px ;
+}
+.slippage{
+    border: none;
+    outline: none;
+    border-left: 1px solid black;
+background-color: cyan;
+margin-left: 5px;
+margin-right: 5px;
+}
+.slip-cont{
+    border: 1px solid red;
+    outline: red;
+    background-color:  cyan;
+    border-radius: 12px;
+    height: 29px;
+    padding: 0px 10px;
+   
+}
+
